@@ -1,0 +1,45 @@
+{
+  "id": "optim-pack",
+  "type": "modpack",
+  "page": "modpack-optim.html",
+  "texts": {
+    "fr": {
+      "title": "Optim Pack",
+      "shortDescription": "Performances, stabilité, FPS.",
+      "descriptionHtml": "<p class='empty-state'>La description n'est pas encore disponible.</p>"
+    },
+    "en": {
+      "title": "Optim Pack",
+      "shortDescription": "Performance, stability, FPS.",
+      "descriptionHtml": "<p class='empty-state'>Description not available yet.</p>"
+    }
+  },
+  "tags": ["Perf", "Stable", "FPS"],
+  "images": {
+    "logo": null,
+    "banner": null,
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": [],
+    "platforms": [],
+    "environments": []
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "0.1.0",
+      "status": "alpha",
+      "minecraft": [],
+      "loader": null,
+      "published": "Bientôt",
+      "downloads": "—",
+      "files": []
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

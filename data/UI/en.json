@@ -1,0 +1,224 @@
+{
+  "site": {
+    "titlePrefix": "AuroraStudio —",
+    "titles": {
+      "home": "Minecraft Studio",
+      "mods": "Mods",
+      "modpacks": "Modpacks",
+      "resourcepacks": "Resource Packs",
+      "servers": "Minecraft Servers",
+      "settings": "Settings",
+      "details": "Details"
+    }
+  },
+  "nav": {
+    "resourcepacks": "Resource Packs",
+    "mods": "Mods",
+    "modpacks": "Modpacks",
+    "servers": "Minecraft Servers",
+    "settings": "Settings"
+  },
+  "mobile": {
+    "navigationLabel": "Mobile navigation",
+    "explore": "Explore",
+    "close": "Close"
+  },
+  "breadcrumbs": {
+    "home": "Home"
+  },
+  "buttons": {
+    "servers": "Minecraft Servers",
+    "explore": "Explore",
+    "download": "Download",
+    "copy": "Copy",
+    "close": "Close",
+    "settings": "Settings"
+  },
+  "home": {
+    "hero": {
+      "title": "AuroraStudio, a Minecraft universe<br />of fantasy and medieval vibes.",
+      "subtitle": "Two servers, one studio. Modded survival for adventure, modded creative to build without limits. Modpacks for a clean and stable experience."
+    }
+  },
+  "sections": {
+    "modpacks": "Modpacks",
+    "mods": "Mods",
+    "resourcepacks": "Resource Packs"
+  },
+  "list": {
+    "mods": {
+      "title": "Mods list",
+      "subtitle": "5 mods selected for the studio. Click to view details.",
+      "breadcrumb": "Mods"
+    },
+    "modpacks": {
+      "title": "Modpacks list",
+      "subtitle": "Official modpacks for a clean and stable experience.",
+      "breadcrumb": "Modpacks"
+    },
+    "resourcepacks": {
+      "title": "Resource packs",
+      "subtitle": "Visual packs designed to keep a pastel, readable vibe in-game.",
+      "breadcrumb": "Resource Packs"
+    },
+    "labels": {
+      "version": "Version",
+      "status": "Status"
+    },
+    "empty": "No content available.",
+    "error": "Unable to load data."
+  },
+  "detail": {
+    "downloadCta": "Download",
+    "tabs": {
+      "description": "Description",
+      "images": "Images",
+      "downloads": "Downloads",
+      "changelog": "Changelog"
+    },
+    "empty": {
+      "changelog": "No changelog available.",
+      "description": "Description not available.",
+      "gallery": "No image available."
+    }
+  },
+  "versions": {
+    "headers": {
+      "name": "Name",
+      "version": "Version",
+      "platforms": "Platforms",
+      "published": "Published",
+      "downloads": "Downloads"
+    },
+    "empty": "No downloads available.",
+    "downloadAria": "Download"
+  },
+  "compatibility": {
+    "title": "Compatibility",
+    "minecraftEdition": "Minecraft: {edition} Edition",
+    "platforms": "Platforms",
+    "environments": "Supported environments",
+    "empty": "Not specified."
+  },
+  "details": {
+    "title": "Details",
+    "status": "Status",
+    "empty": "Not specified."
+  },
+  "status": {
+    "release": "Release",
+    "beta": "Beta",
+    "alpha": "Alpha"
+  },
+  "statusLetters": {
+    "release": "R",
+    "beta": "B",
+    "alpha": "A"
+  },
+  "types": {
+    "mod": "Mod",
+    "modpack": "Modpack",
+    "resourcepack": "Resource Pack"
+  },
+  "download": {
+    "titlePrefix": "Download —",
+    "latest": "Latest version:",
+    "modrinth": "Download on Modrinth",
+    "curseforge": "Download on CurseForge",
+    "noLinks": "No links available.",
+    "filters": {
+      "minecraft": "Minecraft version",
+      "loader": "Loader"
+    },
+    "noCompatible": "No compatible files.",
+    "noFiles": "No files available.",
+    "fileLabel": "Download",
+    "modalLabel": "Download"
+  },
+  "copy": {
+    "success": "Copied!",
+    "error": "Error"
+  },
+  "footer": {
+    "copyright": "© 2026 AuroraStudio — All rights reserved.",
+    "discord": "Discord",
+    "tiktok": "TikTok",
+    "shop": "Shop"
+  },
+  "servers": {
+    "badge": "Minecraft Servers",
+    "title": "Two servers, one studio.",
+    "subtitle": "Modded survival for adventure and modded creative to build without limits.",
+    "info": {
+      "title": "Quick info",
+      "text": "Version: 1.21.11 — Active community — Staff present"
+    },
+    "survival": {
+      "title": "Modded survival",
+      "description": "Progression, exploration, quests, light economy, and events.",
+      "ipLabel": "Modded Survival IP",
+      "tags": {
+        "quest": "Quests",
+        "boss": "Bosses",
+        "economy": "Economy"
+      }
+    },
+    "creative": {
+      "title": "Modded creative",
+      "description": "Limitless building, WorldEdit, premium materials, plots.",
+      "ipLabel": "Modded Creative IP",
+      "tags": {
+        "plots": "Plots",
+        "worldedit": "WorldEdit",
+        "decorations": "Decorations"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "breadcrumb": "Settings",
+    "sidebar": {
+      "display": "Display",
+      "appearance": "Appearance",
+      "language": "Language",
+      "beta": "Beta"
+    },
+    "intro": "Customize the look and language used on this site. Settings are stored in cookies.",
+    "appearance": {
+      "title": "Appearance",
+      "subtitle": "Select the theme that suits you best.",
+      "options": {
+        "auto": {
+          "name": "Auto",
+          "meta": "Follow system"
+        },
+        "light": {
+          "name": "Light",
+          "meta": "Light version"
+        },
+        "dark": {
+          "name": "Dark",
+          "meta": "Dark version"
+        }
+      }
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose the interface language.",
+      "options": {
+        "fr": {
+          "name": "French",
+          "meta": "French"
+        },
+        "en": {
+          "name": "English",
+          "meta": "Default"
+        },
+        "pl": {
+          "name": "Polish",
+          "meta": "Polish"
+        }
+      }
+    }
+  }
+}

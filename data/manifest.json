@@ -1,0 +1,18 @@
+﻿{
+  "mods": [
+    {"id": "emerald-armor", "listed": true, "featured": true},
+    {"id": "complete-turtle-armor", "listed": true, "featured": true},
+    {"id": "craft-chain-armor", "listed": true, "featured": true},
+    {"id": "moss-armor", "listed": true, "featured": false},
+    {"id": "voyager-map", "listed": true, "featured": false}
+  ],
+  "modpacks": [
+    {"id": "cozycraft", "listed": true, "featured": true},
+    {"id": "survival-craft", "listed": true, "featured": true},
+    {"id": "aurora-creative-pack", "listed": true, "featured": false},
+    {"id": "optim-pack", "listed": true, "featured": false}
+  ],
+  "resourcepacks": [
+    {"id": "stitch-pack", "listed": true, "featured": true}
+  ]
+}

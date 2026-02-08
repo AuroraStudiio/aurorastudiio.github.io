@@ -1,0 +1,224 @@
+{
+  "site": {
+    "titlePrefix": "AuroraStudio —",
+    "titles": {
+      "home": "Studio Minecraft",
+      "mods": "Mody",
+      "modpacks": "Modpacki",
+      "resourcepacks": "Pakiety zasobów",
+      "servers": "Serwery Minecraft",
+      "settings": "Ustawienia",
+      "details": "Szczegóły"
+    }
+  },
+  "nav": {
+    "resourcepacks": "Pakiety zasobów",
+    "mods": "Mody",
+    "modpacks": "Modpacki",
+    "servers": "Serwery Minecraft",
+    "settings": "Ustawienia"
+  },
+  "mobile": {
+    "navigationLabel": "Nawigacja mobilna",
+    "explore": "Eksploruj",
+    "close": "Zamknij"
+  },
+  "breadcrumbs": {
+    "home": "Strona główna"
+  },
+  "buttons": {
+    "servers": "Serwery Minecraft",
+    "explore": "Eksploruj",
+    "download": "Pobierz",
+    "copy": "Kopiuj",
+    "close": "Zamknij",
+    "settings": "Ustawienia"
+  },
+  "home": {
+    "hero": {
+      "title": "AuroraStudio, minecraftowy świat<br />fantasy i klimatu średniowiecza.",
+      "subtitle": "Dwa serwery, jedno studio. Survival modowany na przygodę, kreatywny modowany do budowania bez ograniczeń. Modpacki dla czystego i stabilnego doświadczenia."
+    }
+  },
+  "sections": {
+    "modpacks": "Modpacki",
+    "mods": "Mody",
+    "resourcepacks": "Pakiety zasobów"
+  },
+  "list": {
+    "mods": {
+      "title": "Lista modów",
+      "subtitle": "5 modów wybranych dla studia. Kliknij, aby zobaczyć szczegóły.",
+      "breadcrumb": "Mody"
+    },
+    "modpacks": {
+      "title": "Lista modpacków",
+      "subtitle": "Oficjalne modpacki dla czystego i stabilnego doświadczenia.",
+      "breadcrumb": "Modpacki"
+    },
+    "resourcepacks": {
+      "title": "Pakiety zasobów",
+      "subtitle": "Paczki wizualne zaprojektowane, by zachować pastelowy, czytelny klimat w grze.",
+      "breadcrumb": "Pakiety zasobów"
+    },
+    "labels": {
+      "version": "Wersja",
+      "status": "Status"
+    },
+    "empty": "Brak dostępnych treści.",
+    "error": "Nie udało się wczytać danych."
+  },
+  "detail": {
+    "downloadCta": "Pobierz",
+    "tabs": {
+      "description": "Opis",
+      "images": "Obrazy",
+      "downloads": "Pobieranie",
+      "changelog": "Historia"
+    },
+    "empty": {
+      "changelog": "Brak historii zmian.",
+      "description": "Opis niedostępny.",
+      "gallery": "Brak dostępnych obrazów."
+    }
+  },
+  "versions": {
+    "headers": {
+      "name": "Nazwa",
+      "version": "Wersja",
+      "platforms": "Platformy",
+      "published": "Opublikowano",
+      "downloads": "Pobrania"
+    },
+    "empty": "Brak dostępnych pobrań.",
+    "downloadAria": "Pobierz"
+  },
+  "compatibility": {
+    "title": "Kompatybilność",
+    "minecraftEdition": "Minecraft: edycja {edition}",
+    "platforms": "Platformy",
+    "environments": "Obsługiwane środowiska",
+    "empty": "Brak danych."
+  },
+  "details": {
+    "title": "Szczegóły",
+    "status": "Status",
+    "empty": "Brak danych."
+  },
+  "status": {
+    "release": "Wydanie",
+    "beta": "Beta",
+    "alpha": "Alfa"
+  },
+  "statusLetters": {
+    "release": "R",
+    "beta": "B",
+    "alpha": "A"
+  },
+  "types": {
+    "mod": "Mod",
+    "modpack": "Modpack",
+    "resourcepack": "Pakiet zasobów"
+  },
+  "download": {
+    "titlePrefix": "Pobieranie —",
+    "latest": "Najnowsza wersja:",
+    "modrinth": "Pobierz z Modrinth",
+    "curseforge": "Pobierz z CurseForge",
+    "noLinks": "Brak dostępnych linków.",
+    "filters": {
+      "minecraft": "Wersja Minecrafta",
+      "loader": "Loader"
+    },
+    "noCompatible": "Brak kompatybilnych plików.",
+    "noFiles": "Brak dostępnych plików.",
+    "fileLabel": "Pobierz",
+    "modalLabel": "Pobieranie"
+  },
+  "copy": {
+    "success": "Skopiowano!",
+    "error": "Błąd"
+  },
+  "footer": {
+    "copyright": "© 2026 AuroraStudio — Wszelkie prawa zastrzeżone.",
+    "discord": "Discord",
+    "tiktok": "TikTok",
+    "shop": "Sklep"
+  },
+  "servers": {
+    "badge": "Serwery Minecraft",
+    "title": "Dwa serwery, jedno studio.",
+    "subtitle": "Survival modowany na przygodę i kreatywny modowany do budowania bez ograniczeń.",
+    "info": {
+      "title": "Szybkie info",
+      "text": "Wersja: 1.21.11 — Aktywna społeczność — Obecna administracja"
+    },
+    "survival": {
+      "title": "Survival modowany",
+      "description": "Rozwój, eksploracja, zadania, lekka ekonomia i eventy.",
+      "ipLabel": "IP Survival Modowany",
+      "tags": {
+        "quest": "Zadania",
+        "boss": "Bossowie",
+        "economy": "Ekonomia"
+      }
+    },
+    "creative": {
+      "title": "Kreatywny modowany",
+      "description": "Budowanie bez limitów, WorldEdit, materiały premium, działki.",
+      "ipLabel": "IP Kreatywny Modowany",
+      "tags": {
+        "plots": "Działki",
+        "worldedit": "WorldEdit",
+        "decorations": "Dekoracje"
+      }
+    }
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "breadcrumb": "Ustawienia",
+    "sidebar": {
+      "display": "Wyświetlanie",
+      "appearance": "Wygląd",
+      "language": "Język",
+      "beta": "Beta"
+    },
+    "intro": "Dostosuj wygląd i język używany na tej stronie. Ustawienia są zapisywane w ciasteczkach.",
+    "appearance": {
+      "title": "Wygląd",
+      "subtitle": "Wybierz motyw, który najlepiej ci odpowiada.",
+      "options": {
+        "auto": {
+          "name": "Automatyczny",
+          "meta": "Zgodnie z systemem"
+        },
+        "light": {
+          "name": "Jasny",
+          "meta": "Jasna wersja"
+        },
+        "dark": {
+          "name": "Ciemny",
+          "meta": "Ciemna wersja"
+        }
+      }
+    },
+    "language": {
+      "title": "Język",
+      "subtitle": "Wybierz język interfejsu.",
+      "options": {
+        "fr": {
+          "name": "Francuski",
+          "meta": "Francuski"
+        },
+        "en": {
+          "name": "Angielski",
+          "meta": "Domyślne"
+        },
+        "pl": {
+          "name": "Polski",
+          "meta": "Polski"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "emerald-armor",
+  "type": "mod",
+  "page": "mod-emeraldarmor.html",
+  "texts": {
+    "fr": {
+      "title": "Emerald Armor",
+      "shortDescription": "Ajoute l'armure en Emerald.",
+      "descriptionHtml": "<h2>Description complète</h2><p>Le mod « Ensemble d'Émeraude » ajoute des outils et une armure en émeraude, légèrement supérieurs au diamant.</p><p>Effets de l'armure d'émeraude :</p><ul class='modpack-list'><li>Casque : Héros du village III.</li></ul><p>Pourquoi télécharger notre mod plutôt qu'un autre mod d'émeraude ?</p><p>Ce mod adopte un style vanilla. L'ajouter à Minecraft vous donnera l'impression de jouer à Minecraft et non à un autre jeu. Si vous appréciez le style vanilla, n'hésitez pas à l'essayer.</p><p>Ce mod est disponible pour le client et le serveur. Pour la version Fabric, l'API Fabric est requise (en développement).</p><p>Ce mod a été créé avec MCreator.</p>"
+    },
+    "en": {
+      "title": "Emerald Armor",
+      "shortDescription": "Adds Emerald armor.",
+      "descriptionHtml": "<h2>Full description</h2><p>The Emerald Armor mod adds emerald tools and armor, slightly stronger than diamond.</p><p>Emerald armor effects:</p><ul class='modpack-list'><li>Helmet: Hero of the Village III.</li></ul><p>Why download this mod rather than another emerald mod?</p><p>This mod keeps a vanilla style. Adding it to Minecraft still feels like Minecraft. If you enjoy vanilla style, give it a try.</p><p>Available for client and server. For Fabric, the Fabric API is required (in development).</p><p>Created with MCreator.</p>"
+    }
+  },
+  "tags": ["Armure", "Loot"],
+  "images": {
+    "logo": "image/mod/Emerald Armor/logo.webp",
+    "banner": "image/mod/Emerald Armor/banner Emerald Armor.png",
+    "gallery": [
+      "image/mod/Emerald Armor/img1.png",
+      "image/mod/Emerald Armor/img2.png"
+    ]
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.8-1.21.11", "1.21.0-1.21.3", "1.20.x", "1.19.x"],
+    "platforms": ["Fabric", "Forge", "Neoforge"],
+    "environments": ["Client et serveur"]
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "2.0.0",
+      "status": "release",
+      "minecraft": ["1.21.8-1.21.10"],
+      "loader": "Neoforge",
+      "published": "05/12/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "2.0.0",
+      "status": "release",
+      "minecraft": ["1.21.8-1.21.10"],
+      "loader": "Fabric",
+      "published": "27/11/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "2.0.0",
+      "status": "release",
+      "minecraft": ["1.20.x"],
+      "loader": "Forge",
+      "published": "24/08/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "2.0.0",
+      "status": "release",
+      "minecraft": ["1.19.x"],
+      "loader": "Forge",
+      "published": "24/08/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "beta",
+      "minecraft": ["1.21.0-1.21.3"],
+      "loader": "Neoforge",
+      "published": "26/10/2024",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "beta",
+      "minecraft": ["1.20.x"],
+      "loader": "Forge",
+      "published": "22/02/2024",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "aurora-creative-pack",
+  "type": "modpack",
+  "page": "modpack-aurora-creative.html",
+  "texts": {
+    "fr": {
+      "title": "Aurora Creative Pack",
+      "shortDescription": "Construction rapide, déco, outils créa.",
+      "descriptionHtml": "<p class='empty-state'>La description n'est pas encore disponible.</p>"
+    },
+    "en": {
+      "title": "Aurora Creative Pack",
+      "shortDescription": "Fast building, decoration, creative tools.",
+      "descriptionHtml": "<p class='empty-state'>Description not available yet.</p>"
+    }
+  },
+  "tags": ["Construction", "Déco", "Créa"],
+  "images": {
+    "logo": null,
+    "banner": null,
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": [],
+    "platforms": [],
+    "environments": []
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "0.1.0",
+      "status": "alpha",
+      "minecraft": [],
+      "loader": null,
+      "published": "Bientôt",
+      "downloads": "—",
+      "files": []
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

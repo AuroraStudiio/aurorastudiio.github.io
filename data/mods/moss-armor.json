@@ -1,0 +1,45 @@
+{
+  "id": "moss-armor",
+  "type": "mod",
+  "page": "mod-mossarmor.html",
+  "texts": {
+    "fr": {
+      "title": "Moss Armor",
+      "shortDescription": "Nouvelle armure en mousse, outils et même une partie en mousse comestible.",
+      "descriptionHtml": "<h2>Description complète</h2><p>Nouvelle armure en mousse, outils et même une partie en mousse comestible.</p><p>Parfait pour les joueurs qui veulent une vibe nature avec un équipement original.</p>"
+    },
+    "en": {
+      "title": "Moss Armor",
+      "shortDescription": "New moss armor, tools, and even edible moss.",
+      "descriptionHtml": "<h2>Full description</h2><p>New moss armor, tools, and even an edible moss component.</p><p>Perfect for players who want a nature vibe with unique gear.</p>"
+    }
+  },
+  "tags": ["Armure", "Nature"],
+  "images": {
+    "logo": "image/mod/mossarmor/logo.webp",
+    "banner": null,
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.x", "1.20.x"],
+    "platforms": ["Forge"],
+    "environments": ["Client et serveur"]
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.x", "1.20.x"],
+      "loader": "Forge",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

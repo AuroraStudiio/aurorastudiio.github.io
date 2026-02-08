@@ -1,0 +1,45 @@
+{
+  "id": "voyager-map",
+  "type": "mod",
+  "page": "mod-voyager-map.html",
+  "texts": {
+    "fr": {
+      "title": "Voyager Map",
+      "shortDescription": "Carte immersive, waypoints et exploration simplifiée.",
+      "descriptionHtml": "<h2>Description complète</h2><p>Carte immersive, waypoints et exploration simplifiée.</p><p>Idéal pour préparer des expéditions et marquer vos lieux importants.</p>"
+    },
+    "en": {
+      "title": "Voyager Map",
+      "shortDescription": "Immersive map, waypoints, and simpler exploration.",
+      "descriptionHtml": "<h2>Full description</h2><p>Immersive map, waypoints, and simpler exploration.</p><p>Great for planning expeditions and marking important locations.</p>"
+    }
+  },
+  "tags": ["Exploration", "Carte", "Waypoints"],
+  "images": {
+    "logo": null,
+    "banner": null,
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.x", "1.20.x"],
+    "platforms": ["Fabric"],
+    "environments": ["Client et serveur"]
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.x", "1.20.x"],
+      "loader": "Fabric",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

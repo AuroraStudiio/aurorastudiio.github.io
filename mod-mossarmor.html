@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AuroraStudio &mdash; Modpacks</title>
+  <title>AuroraStudio &mdash; D&eacute;tails</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="list" data-type="modpacks">
+<body data-page="detail" data-type="mod" data-id="moss-armor">
   <div class="bg-glow"></div>
   <div class="bg-photo" aria-hidden="true"></div>
 
@@ -37,20 +37,64 @@
   </header>
 
   <main class="page">
-    <div class="breadcrumbs"><a href="index.html">Accueil</a> / <span>Modpacks</span></div>
-    <h1>Liste des modpacks</h1>
-    <p>Modpacks officiels pour une exp&eacute;rience propre et stable.</p>
-
-    <section class="list-stack" data-list></section>
-  </main>
+  <div class="breadcrumbs"><a href="index.html">Accueil</a> / <a href="mods.html">Mods</a> / <span data-field="breadcrumb"></span></div>
+  <div class="detail-top">
+    <section class="detail-header">
+      <div class="detail-logo" data-field="logo"></div>
+      <div>
+        <div class="badge" data-field="type-label"></div>
+        <h1 class="detail-title"><span data-field="title"></span><span class="byline" data-field="byline"></span></h1>
+        <p class="detail-subtitle" data-field="subtitle"></p>
+        <div class="tags" data-field="tags"></div>
+      </div>
+    </section>
+    <div class="detail-actions">
+      <button class="btn primary" type="button" data-download-main>
+        <span class="btn-icon">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12"></path>
+            <path d="M7 10l5 5 5-5"></path>
+            <path d="M5 21h14"></path>
+          </svg>
+        </span>
+        <span>T&eacute;l&eacute;charger</span>
+      </button>
+    </div>
+  </div>
+  <div class="detail-layout">
+    <div class="detail-main">
+      <section class="tabset" data-tabset>
+        <div class="tabs">
+          <button class="tab is-active" type="button" data-tab="description">Description</button>
+          <button class="tab" type="button" data-tab="images">Images</button>
+          <button class="tab" type="button" data-tab="downloads">T&eacute;l&eacute;chargement</button>
+          <button class="tab" type="button" data-tab="changelog">Historique</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel is-active" data-panel="description">
+            <div data-field="description"></div>
+          </div>
+          <div class="tab-panel" data-panel="images">
+            <div class="modpack-gallery" data-field="gallery"></div>
+          </div>
+          <div class="tab-panel" data-panel="downloads" id="downloads">
+            <div data-field="versions"></div>
+          </div>
+          <div class="tab-panel" data-panel="changelog">
+            <p class="empty-state">Pas d'historique disponible.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <aside class="detail-sidebar">
+      <div class="info-box" data-field="compatibility"></div>
+      <div class="info-box" data-field="details"></div>
+    </aside>
+  </div>
+</main>
 
   <footer class="footer">
     <div>&copy; 2026 AuroraStudio &mdash; Tous droits r&eacute;serv&eacute;s.</div>
-    <div class="footer-links">
-      <a href="#">Discord</a>
-      <a href="#">TikTok</a>
-      <a href="#">Boutique</a>
-    </div>
   </footer>
   <div class="mobile-nav" aria-label="Navigation mobile">
     <a class="mobile-nav-item" href="index.html">

@@ -1,0 +1,224 @@
+{
+  "site": {
+    "titlePrefix": "AuroraStudio —",
+    "titles": {
+      "home": "Studio Minecraft",
+      "mods": "Mods",
+      "modpacks": "Modpacks",
+      "resourcepacks": "Packs de ressources",
+      "servers": "Serveurs Minecraft",
+      "settings": "Paramètres",
+      "details": "Détails"
+    }
+  },
+  "nav": {
+    "resourcepacks": "Packs de ressources",
+    "mods": "Mods",
+    "modpacks": "Modpacks",
+    "servers": "Serveurs Minecraft",
+    "settings": "Paramètres"
+  },
+  "mobile": {
+    "navigationLabel": "Navigation mobile",
+    "explore": "Explorer",
+    "close": "Fermer"
+  },
+  "breadcrumbs": {
+    "home": "Accueil"
+  },
+  "buttons": {
+    "servers": "Serveurs Minecraft",
+    "explore": "Explorez",
+    "download": "Télécharger",
+    "copy": "Copier",
+    "close": "Fermer",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "hero": {
+      "title": "AuroraStudio, un univers Minecraft<br />fantaisie et médiévale.",
+      "subtitle": "Deux serveurs, un studio. Survie modée pour l’aventure, créatif modé pour construire sans limites. Des modpacks pour une expérience propre et stable."
+    }
+  },
+  "sections": {
+    "modpacks": "Modpacks",
+    "mods": "Mods",
+    "resourcepacks": "Packs de ressources"
+  },
+  "list": {
+    "mods": {
+      "title": "Liste des mods",
+      "subtitle": "5 mods sélectionnés pour le studio. Clique pour voir les détails.",
+      "breadcrumb": "Mods"
+    },
+    "modpacks": {
+      "title": "Liste des modpacks",
+      "subtitle": "Modpacks officiels pour une expérience propre et stable.",
+      "breadcrumb": "Modpacks"
+    },
+    "resourcepacks": {
+      "title": "Packs de ressources",
+      "subtitle": "Des packs visuels pensés pour garder une vibe pastel et lisible en jeu.",
+      "breadcrumb": "Packs de ressources"
+    },
+    "labels": {
+      "version": "Version",
+      "status": "Statut"
+    },
+    "empty": "Aucun contenu disponible.",
+    "error": "Impossible de charger les données."
+  },
+  "detail": {
+    "downloadCta": "Télécharger",
+    "tabs": {
+      "description": "Description",
+      "images": "Images",
+      "downloads": "Téléchargement",
+      "changelog": "Historique"
+    },
+    "empty": {
+      "changelog": "Pas d'historique disponible.",
+      "description": "Description non disponible.",
+      "gallery": "Pas d'image disponible."
+    }
+  },
+  "versions": {
+    "headers": {
+      "name": "Nom",
+      "version": "Version",
+      "platforms": "Plateformes",
+      "published": "Publié",
+      "downloads": "Téléchargements"
+    },
+    "empty": "Pas de téléchargement disponible.",
+    "downloadAria": "Télécharger"
+  },
+  "compatibility": {
+    "title": "Compatibilité",
+    "minecraftEdition": "Minecraft : Édition {edition}",
+    "platforms": "Plateformes",
+    "environments": "Environnements pris en charge",
+    "empty": "Non renseigné."
+  },
+  "details": {
+    "title": "Détails",
+    "status": "Statut",
+    "empty": "Non renseigné."
+  },
+  "status": {
+    "release": "Release",
+    "beta": "Bêta",
+    "alpha": "Alpha"
+  },
+  "statusLetters": {
+    "release": "R",
+    "beta": "B",
+    "alpha": "A"
+  },
+  "types": {
+    "mod": "Mod",
+    "modpack": "Modpack",
+    "resourcepack": "Pack de ressources"
+  },
+  "download": {
+    "titlePrefix": "Téléchargement —",
+    "latest": "Dernière version :",
+    "modrinth": "Télécharger sur Modrinth",
+    "curseforge": "Télécharger sur CurseForge",
+    "noLinks": "Aucun lien disponible.",
+    "filters": {
+      "minecraft": "Version Minecraft",
+      "loader": "Loader"
+    },
+    "noCompatible": "Aucun fichier compatible.",
+    "noFiles": "Aucun fichier disponible.",
+    "fileLabel": "Télécharger",
+    "modalLabel": "Téléchargement"
+  },
+  "copy": {
+    "success": "Copié !",
+    "error": "Erreur"
+  },
+  "footer": {
+    "copyright": "© 2026 AuroraStudio — Tous droits réservés.",
+    "discord": "Discord",
+    "tiktok": "TikTok",
+    "shop": "Boutique"
+  },
+  "servers": {
+    "badge": "Serveurs Minecraft",
+    "title": "Deux serveurs, un même studio.",
+    "subtitle": "Survie modée pour l’aventure et créatif modé pour builder sans limites.",
+    "info": {
+      "title": "Infos rapides",
+      "text": "Version: 1.21.11 — Communauté active — Staff présent"
+    },
+    "survival": {
+      "title": "Survie modée",
+      "description": "Progression, exploration, quêtes, économie légère et events.",
+      "ipLabel": "IP Survie Modée",
+      "tags": {
+        "quest": "Quêtes",
+        "boss": "Boss",
+        "economy": "Économie"
+      }
+    },
+    "creative": {
+      "title": "Créatif modé",
+      "description": "Construction sans limites, WorldEdit, matériaux premium, plots.",
+      "ipLabel": "IP Créatif Modé",
+      "tags": {
+        "plots": "Plots",
+        "worldedit": "WorldEdit",
+        "decorations": "Décorations"
+      }
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "breadcrumb": "Paramètres",
+    "sidebar": {
+      "display": "Affichage",
+      "appearance": "Apparence",
+      "language": "Langue",
+      "beta": "Bêta"
+    },
+    "intro": "Personnalisez l'apparence et la langue utilisée sur ce site. Les réglages sont stockés dans les cookies.",
+    "appearance": {
+      "title": "Apparence",
+      "subtitle": "Sélectionnez le thème qui vous convient le mieux.",
+      "options": {
+        "auto": {
+          "name": "Automatique",
+          "meta": "Suivre le système"
+        },
+        "light": {
+          "name": "Clair",
+          "meta": "Version claire"
+        },
+        "dark": {
+          "name": "Sombre",
+          "meta": "Version sombre"
+        }
+      }
+    },
+    "language": {
+      "title": "Langue",
+      "subtitle": "Choisissez la langue de l’interface.",
+      "options": {
+        "fr": {
+          "name": "Français",
+          "meta": "Français"
+        },
+        "en": {
+          "name": "Anglais",
+          "meta": "Par défaut"
+        },
+        "pl": {
+          "name": "Polonais",
+          "meta": "Polonais"
+        }
+      }
+    }
+  }
+}

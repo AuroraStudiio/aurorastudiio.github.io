@@ -1,0 +1,45 @@
+{
+  "id": "craft-chain-armor",
+  "type": "mod",
+  "page": "mod-craftchainearmor.html",
+  "texts": {
+    "fr": {
+      "title": "Craft Chain Armor",
+      "shortDescription": "Ce mod ajoute un système de fabrication pour l'armure en cotte de mailles.",
+      "descriptionHtml": "<h2>Description complète</h2><p>Ce mod ajoute un système de fabrication pour l'armure en cotte de mailles.</p><p>Transformez des lingots et des chaînes en pièces d'armure de manière plus naturelle, sans loot aléatoire.</p><p>Idéal pour les serveurs survival qui veulent une progression claire et vanilla-friendly.</p>"
+    },
+    "en": {
+      "title": "Craft Chain Armor",
+      "shortDescription": "Adds a crafting system for chainmail armor.",
+      "descriptionHtml": "<h2>Full description</h2><p>This mod adds a crafting system for chainmail armor.</p><p>Turn ingots and chains into armor pieces in a more natural way, without relying on random loot.</p><p>Ideal for survival servers that want clear, vanilla-friendly progression.</p>"
+    }
+  },
+  "tags": ["Armure", "Loot"],
+  "images": {
+    "logo": "image/mod/Craft Chain Armor/logo.webp",
+    "banner": "image/mod/Craft Chain Armor/banner.png",
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.x", "1.20.x"],
+    "platforms": ["Forge"],
+    "environments": ["Client et serveur"]
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.x", "1.20.x"],
+      "loader": "Forge",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

@@ -1,24 +1,37 @@
-﻿<!doctype html>
-<html lang="fr">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AuroraStudio — Mods</title>
+  <title>AuroraStudio &mdash; Mods</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-page="list" data-type="mods">
   <div class="bg-glow"></div>
   <div class="bg-photo" aria-hidden="true"></div>
 
   <header class="hero">
-                <a class="mobile-brand" href="index.html">Aurora<span>Studio</span></a>
+    <div class="mobile-topbar">
+      <a class="mobile-brand" href="index.html">Aurora<span>Studio</span></a>
+      <a class="mobile-settings" href="parametres.html" aria-label="Param&egrave;tres" title="Param&egrave;tres">
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c0 .65.39 1.24 1 1.51.17.08.35.12.54.12H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+      </a>
+    </div>
         <nav class="nav">
-      <a class="brand" href="index.html">Aurora<span>Studio</span></a>
-      <div class="nav-links">
-        <a href="resourcepacks.html">Ressource Packs</a>
+      <a class="brand" href="index.html">Aurora<span>Studio</span></a>      <div class="nav-links">
+        <a href="resourcepacks.html">Packs de ressources</a>
         <a href="mods.html">Mods</a>
         <a href="modpacks.html">Modpacks</a>
         <a href="serveurs.html" class="cta">Serveurs Minecraft</a>
+        <a href="parametres.html" class="nav-icon-btn" aria-label="Param&egrave;tres" title="Param&egrave;tres">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c0 .65.39 1.24 1 1.51.17.08.35.12.54.12H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+        </a>
       </div>
     </nav>
   </header>
@@ -26,130 +39,13 @@
   <main class="page">
     <div class="breadcrumbs"><a href="index.html">Accueil</a> / <span>Mods</span></div>
     <h1>Liste des mods</h1>
-    <p>5 mods sélectionnés pour le studio. Clique pour voir les détails.</p>
+    <p>5 mods s&eacute;lectionn&eacute;s pour le studio. Clique pour voir les d&eacute;tails.</p>
 
-    <section class="list-stack">
-      <a class="list-item" href="mod-emeraldarmor.html">
-        <div class="list-icon">
-          <img src="image/mod/Emerald Armor/logo.webp" alt="emeraldarmor" />
-        </div>
-        <div>
-          <div class="list-title">Crystal Caves</div>
-          <p class="list-desc">Ajoute l'armure en Emerald.</p>
-          <div class="list-meta">
-            <span class="tag">Armure</span>
-            <span class="tag">Loot</span>
-          </div>
-        </div>
-        <div class="list-stats">
-          <div>
-            <div class="stat-value">2.0.0</div>
-            <div class="stat-label">Version</div>
-          </div>
-          <div>
-            <div class="stat-value">Release</div>
-            <div class="stat-label">Statut</div>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item" href="mod-completeturlearmor.html">
-        <div class="list-icon">
-          <img src="image/mod/Complete Turtle Armor/logo.webp" alt="complèteturtlearmor" />
-        </div>
-        <div>
-          <div class="list-title">Complète Turtle Armor</div>
-          <p class="list-desc">Ce mod complète l'armure de tortue !</p>
-          <div class="list-meta">
-            <span class="tag">Armure</span>
-            <span class="tag">Loot</span>
-          </div>
-        </div>
-        <div class="list-stats">
-          <div>
-            <div class="stat-value">1.0.0</div>
-            <div class="stat-label">Version</div>
-          </div>
-          <div>
-            <div class="stat-value">Release</div>
-            <div class="stat-label">Statut</div>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item" href="mod-botanic-aura.html">
-        <div class="list-icon"><span class="icon-letter">B</span></div>
-        <div>
-          <div class="list-title">Botanic Aura</div>
-          <p class="list-desc">Magie naturelle, fleurs, alchimie et progression.</p>
-          <div class="list-meta">
-            <span class="tag">Magie</span>
-            <span class="tag">Nature</span>
-            <span class="tag">Progression</span>
-          </div>
-        </div>
-        <div class="list-stats">
-          <div>
-            <div class="stat-value">Survie</div>
-            <div class="stat-label">Serveur</div>
-          </div>
-          <div>
-            <div class="stat-value">Aventure</div>
-            <div class="stat-label">Pack</div>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item" href="mod-builders-palette.html">
-        <div class="list-icon"><span class="icon-letter">P</span></div>
-        <div>
-          <div class="list-title">Builder’s Palette</div>
-          <p class="list-desc">Textures premium, blocs déco et variantes.</p>
-          <div class="list-meta">
-            <span class="tag">Build</span>
-            <span class="tag">Décoration</span>
-            <span class="tag">Textures</span>
-          </div>
-        </div>
-        <div class="list-stats">
-          <div>
-            <div class="stat-value">Créatif</div>
-            <div class="stat-label">Serveur</div>
-          </div>
-          <div>
-            <div class="stat-value">Build</div>
-            <div class="stat-label">Pack</div>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item" href="mod-voyager-map.html">
-        <div class="list-icon"><span class="icon-letter">V</span></div>
-        <div>
-          <div class="list-title">Voyager Map</div>
-          <p class="list-desc">Carte immersive, waypoints et exploration.</p>
-          <div class="list-meta">
-            <span class="tag">Exploration</span>
-            <span class="tag">Carte</span>
-            <span class="tag">Waypoints</span>
-          </div>
-        </div>
-        <div class="list-stats">
-          <div>
-            <div class="stat-value">Survie</div>
-            <div class="stat-label">Serveur</div>
-          </div>
-          <div>
-            <div class="stat-value">Aventure</div>
-            <div class="stat-label">Pack</div>
-          </div>
-        </div>
-      </a>
-    </section>
+    <section class="list-stack" data-list></section>
   </main>
 
   <footer class="footer">
-    <div>© 2026 AuroraStudio — Tous droits réservés.</div>
+    <div>&copy; 2026 AuroraStudio &mdash; Tous droits r&eacute;serv&eacute;s.</div>
     <div class="footer-links">
       <a href="#">Discord</a>
       <a href="#">TikTok</a>
@@ -184,28 +80,28 @@
 
   <div class="mobile-nav-overlay" data-mobile-overlay>
     <div class="mobile-nav-modal" role="dialog" aria-modal="true" aria-label="Explorer">
-      <button class="mobile-nav-close" type="button" data-mobile-close aria-label="Fermer">×</button>
-      <h3>Explorer</h3>
-      <div class="mobile-nav-actions">
+      <button class="mobile-nav-close" type="button" data-mobile-close aria-label="Fermer">&times;</button>
+      <h3>Explorer</h3>      <div class="mobile-nav-actions">
         <a class="btn primary" href="modpacks.html">Modpacks</a>
         <a class="btn ghost" href="mods.html">Mods</a>
-        <a class="btn ghost" href="resourcepacks.html">Ressource Packs</a>
+        <a class="btn ghost" href="resourcepacks.html">Packs de ressources</a>
+        <a class="btn ghost" href="parametres.html">Param&egrave;tres</a>
       </div>
     </div>
   </div>
-  <div class="download-overlay" data-download-overlay>
-    <div class="download-modal" role="dialog" aria-modal="true" aria-label="Téléchargements">
+      <div class="download-overlay" data-download-overlay>
+    <div class="download-modal" role="dialog" aria-modal="true" aria-label="T&eacute;l&eacute;chargement">
       <div class="download-header">
-        <h3>Téléchargements</h3>
-        <button class="download-close" type="button" data-download-close aria-label="Fermer">×</button>
+        <h3 data-download-title>T&eacute;l&eacute;chargement</h3>
+        <button class="download-close" type="button" data-download-close aria-label="Fermer">&times;</button>
       </div>
-      <div class="download-actions">
-        <a class="download-btn modrinth" href="#" data-download-link="modrinth">Téléchargez sur modrinth</a>
-        <a class="download-btn zip" href="#" data-download-link="zip">Téléchargez le zip des mods</a>
-        <a class="download-btn curseforge" href="#" data-download-link="curseforge">Téléchargez sur curseforge</a>
-      </div>
+      <div class="download-body" data-download-body></div>
     </div>
   </div>
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+

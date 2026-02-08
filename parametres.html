@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AuroraStudio &mdash; Modpacks</title>
+  <title>AuroraStudio &mdash; Param&egrave;tres</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="list" data-type="modpacks">
+<body data-page="settings">
   <div class="bg-glow"></div>
   <div class="bg-photo" aria-hidden="true"></div>
 
@@ -20,8 +20,9 @@
         </svg>
       </a>
     </div>
-        <nav class="nav">
-      <a class="brand" href="index.html">Aurora<span>Studio</span></a>      <div class="nav-links">
+    <nav class="nav">
+      <a class="brand" href="index.html">Aurora<span>Studio</span></a>
+      <div class="nav-links">
         <a href="resourcepacks.html">Packs de ressources</a>
         <a href="mods.html">Mods</a>
         <a href="modpacks.html">Modpacks</a>
@@ -36,12 +37,119 @@
     </nav>
   </header>
 
-  <main class="page">
-    <div class="breadcrumbs"><a href="index.html">Accueil</a> / <span>Modpacks</span></div>
-    <h1>Liste des modpacks</h1>
-    <p>Modpacks officiels pour une exp&eacute;rience propre et stable.</p>
+  <main class="page settings-page">
+    <div class="breadcrumbs"><a href="index.html">Accueil</a> / <span>Param&egrave;tres</span></div>
+    <div class="settings-layout">
+      <aside class="settings-nav">
+        <div class="settings-title">Param&egrave;tres</div>
+        <div class="settings-section">Affichage</div>
+        <button class="settings-link is-active" type="button" data-settings-tab="appearance">
+          <span>Apparence</span>
+          <span class="beta-pill">B&ecirc;ta</span>
+        </button>
+        <button class="settings-link" type="button" data-settings-tab="language">
+          <span>Langue</span>
+          <span class="beta-pill">B&ecirc;ta</span>
+        </button>
+      </aside>
 
-    <section class="list-stack" data-list></section>
+      <div class="settings-panels">
+        <div class="settings-card settings-header">
+          <h1>Param&egrave;tres</h1>
+          <p>Personnalisez l'apparence et la langue utilis&eacute;e sur ce site. Les r&eacute;glages sont stock&eacute;s dans les cookies.</p>
+        </div>
+
+        <section class="settings-panel is-active" data-settings-panel="appearance">
+          <div class="settings-card">
+            <h2>Apparence</h2>
+            <p>S&eacute;lectionnez le th&egrave;me qui vous convient le mieux.</p>
+            <div class="theme-grid">
+              <label class="theme-card">
+                <input type="radio" name="theme" value="auto" data-setting="theme" />
+                <div class="theme-card-body">
+                  <div class="theme-preview auto">
+                    <div class="preview-block"></div>
+                    <div class="preview-line"></div>
+                    <div class="preview-line"></div>
+                  </div>
+                  <div class="theme-info">
+                    <span class="theme-name">Automatique</span>
+                    <span class="theme-meta">Suivre le syst&egrave;me</span>
+                  </div>
+                </div>
+              </label>
+              <label class="theme-card">
+                <input type="radio" name="theme" value="light" data-setting="theme" />
+                <div class="theme-card-body">
+                  <div class="theme-preview light">
+                    <div class="preview-block"></div>
+                    <div class="preview-line"></div>
+                    <div class="preview-line"></div>
+                  </div>
+                  <div class="theme-info">
+                    <span class="theme-name">Clair</span>
+                    <span class="theme-meta">Version claire</span>
+                  </div>
+                </div>
+              </label>
+              <label class="theme-card">
+                <input type="radio" name="theme" value="dark" data-setting="theme" />
+                <div class="theme-card-body">
+                  <div class="theme-preview dark">
+                    <div class="preview-block"></div>
+                    <div class="preview-line"></div>
+                    <div class="preview-line"></div>
+                  </div>
+                  <div class="theme-info">
+                    <span class="theme-name">Sombre</span>
+                    <span class="theme-meta">Version sombre</span>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section class="settings-panel" data-settings-panel="language">
+          <div class="settings-card">
+            <h2>Langue</h2>
+            <p>Choisissez la langue d'interface. La traduction arrivera plus tard.</p>
+            <div class="lang-grid">
+              <label class="lang-card">
+                <input type="radio" name="lang" value="fr" data-setting="lang" />
+                <div class="lang-card-body">
+                  <div class="lang-code">FR</div>
+                  <div class="lang-info">
+                    <span class="lang-name">Fran&ccedil;ais</span>
+                    <span class="lang-meta">Par d&eacute;faut</span>
+                  </div>
+                </div>
+              </label>
+              <label class="lang-card">
+                <input type="radio" name="lang" value="en" data-setting="lang" />
+                <div class="lang-card-body">
+                  <div class="lang-code">EN</div>
+                  <div class="lang-info">
+                    <span class="lang-name">Anglais</span>
+                    <span class="lang-meta">Bient&ocirc;t traduit</span>
+                  </div>
+                </div>
+              </label>
+              <label class="lang-card">
+                <input type="radio" name="lang" value="pl" data-setting="lang" />
+                <div class="lang-card-body">
+                  <div class="lang-code">PL</div>
+                  <div class="lang-info">
+                    <span class="lang-name">Polonais</span>
+                    <span class="lang-meta">Bient&ocirc;t traduit</span>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">
@@ -81,7 +189,8 @@
   <div class="mobile-nav-overlay" data-mobile-overlay>
     <div class="mobile-nav-modal" role="dialog" aria-modal="true" aria-label="Explorer">
       <button class="mobile-nav-close" type="button" data-mobile-close aria-label="Fermer">&times;</button>
-      <h3>Explorer</h3>      <div class="mobile-nav-actions">
+      <h3>Explorer</h3>
+      <div class="mobile-nav-actions">
         <a class="btn primary" href="modpacks.html">Modpacks</a>
         <a class="btn ghost" href="mods.html">Mods</a>
         <a class="btn ghost" href="resourcepacks.html">Packs de ressources</a>
@@ -101,6 +210,9 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
 
 
 

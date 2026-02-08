@@ -1,0 +1,92 @@
+{
+  "id": "complete-turtle-armor",
+  "type": "mod",
+  "page": "mod-completeturlearmor.html",
+  "texts": {
+    "fr": {
+      "title": "Complète Turtle Armor",
+      "shortDescription": "Ce mod complète l'armure de tortue !",
+      "descriptionHtml": "<h2>Description complète</h2><p>Ce mod complète l'armure de tortue.</p><p>Le mod « Ensemble Tortue » ajoute une armure complète de tortue.</p><p>Pourquoi télécharger notre mod plutôt qu'un autre mod de tortue ?</p><p>Ce mod adopte un style vanilla. En l'ajoutant à Minecraft, vous aurez l'impression de jouer à Minecraft et non à un autre jeu. Si vous appréciez le style vanilla, n'hésitez pas à l'essayer.</p><ul class='modpack-list'><li>Casque (vanilla) : Respiration aquatique pendant 10 secondes.</li><li>Jambières : Grâce des dauphins I.</li><li>Bottes : Vitesse I.</li></ul><p>Ce mod est disponible côté client et côté serveur. Pour la version Fabric, l'API Fabric doit être installée.</p><p>Ce mod a été créé avec MCreator.</p>"
+    },
+    "en": {
+      "title": "Complete Turtle Armor",
+      "shortDescription": "Completes the turtle armor set.",
+      "descriptionHtml": "<h2>Full description</h2><p>This mod completes the turtle armor set.</p><p>The Turtle Set mod adds a full turtle armor set.</p><p>Why download this mod rather than another turtle mod?</p><p>This mod keeps a vanilla style. Adding it to Minecraft still feels like Minecraft. If you enjoy vanilla style, give it a try.</p><ul class='modpack-list'><li>Helmet (vanilla): Water breathing for 10 seconds.</li><li>Leggings: Dolphin's Grace I.</li><li>Boots: Speed I.</li></ul><p>Available for client and server. For Fabric, the Fabric API must be installed.</p><p>Created with MCreator.</p>"
+    }
+  },
+  "tags": ["Armure", "Loot"],
+  "images": {
+    "logo": "image/mod/Complete Turtle Armor/logo.webp",
+    "banner": "image/mod/Complete Turtle Armor/banner Turtle Armor.png",
+    "gallery": [
+      "image/mod/Complete Turtle Armor/img1.png"
+    ]
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.0-1.21.10", "1.20.x"],
+    "platforms": ["Fabric", "Forge", "Neoforge"],
+    "environments": ["Client et serveur"]
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.8-1.21.10"],
+      "loader": "Fabric",
+      "published": "28/11/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.1-1.21.8"],
+      "loader": "Neoforge",
+      "published": "28/11/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.20.1"],
+      "loader": "Forge",
+      "published": "17/08/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.20.x"],
+      "loader": "Fabric",
+      "published": "21/02/2025",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "beta",
+      "minecraft": ["1.21.0-1.21.3"],
+      "loader": "Neoforge",
+      "published": "25/10/2024",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.20.x"],
+      "loader": "Fabric",
+      "published": "22/02/2024",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

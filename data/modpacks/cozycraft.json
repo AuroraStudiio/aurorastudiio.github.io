@@ -1,0 +1,45 @@
+{
+  "id": "cozycraft",
+  "type": "modpack",
+  "page": "modpack-cozycraft.html",
+  "texts": {
+    "fr": {
+      "title": "CozyCraft",
+      "shortDescription": "Vanilla+ ultra léger, pensé pour la perf et le confort.",
+      "descriptionHtml": "<h2>Description complète</h2><p>Redécouvrez Minecraft sous son jour le plus fluide, le plus beau et le plus agréable grâce à ce pack de mods ultra-léger, conçu pour améliorer le jeu sans en altérer l'essence. Avec moins de 50 mods, ce pack se concentre sur l'essentiel : performance, confort et plaisir, en solo comme entre amis.</p><p>Ici, pas de mécaniques complexes ni de changements radicaux. Tout est pensé pour rendre Minecraft plus rapide, plus beau et plus pratique, tout en préservant l'expérience originale. Chaque mod a été soigneusement sélectionné pour offrir un maximum d'améliorations avec un impact minimal sur les performances.</p><p>Que vous jouiez sur un PC peu puissant ou que vous recherchiez simplement une expérience optimisée, ce pack de mods vous permet de profiter d'un Minecraft rapide, stable et moderne, idéal pour de longues sessions entre amis.</p><h2>Mods principaux</h2><div class='modpack-grid'><article class='card'><h3>Optimisation et performances</h3><ul class='modpack-list'><li>Sodium améliore considérablement les performances et la fluidité générale du jeu.</li><li>Le moteur de gestion des chunks concurrents (Fabric) optimise le chargement et la gestion des chunks pour un monde plus réactif.</li></ul></article><article class='card'><h3>Visuels et graphismes</h3><ul class='modpack-list'><li>Iris permet l'utilisation de shaders pour des visuels améliorés.</li><li>Continuity ajoute des textures connectées pour un rendu plus homogène et soigné.</li></ul></article><article class='card'><h3>Confort de jeu</h3><ul class='modpack-list'><li>Carry On facilite le déplacement des coffres, des entités et des blocs.</li><li>Armored Elytra permet de voler sans se séparer de son armure.</li><li>Bridging Mod et Accurate Block Placement Reborn améliorent la précision de la construction.</li><li>FallingTree rend l'abattage des arbres plus rapide et plus naturel.</li><li>L'infobulle des boîtes de shulker permet de voir leur contenu sans les ouvrir.</li></ul></article><article class='card'><h3>Contenu léger et nouveaux blocs</h3><ul class='modpack-list'><li>Farmer's Delight (Fabric) enrichit l'agriculture et la cuisine.</li><li>Storage Delight et Storage Drawers améliorent le stockage sans complexité inutile.</li></ul></article><article class='card'><h3>Multijoueur et divertissement</h3><ul class='modpack-list'><li>PatPat (mod et plugin) ajoute des interactions amusantes et conviviales avec vos amis.</li><li>Essential facilite le jeu entre amis sans serveur dédié.</li><li>Simple Voice Chat permet de communiquer directement en jeu pour une immersion optimale.</li></ul></article></div><h2>Attention</h2><p>Pour toutes les versions de 1.0.0.0 à X, n'oubliez pas d'activer le pack de ressources officiel dans les options du jeu pour profiter pleinement de l'interface personnalisée du mod (non requis).</p>"
+    },
+    "en": {
+      "title": "CozyCraft",
+      "shortDescription": "Ultra-light Vanilla+ pack focused on performance and comfort.",
+      "descriptionHtml": "<h2>Full description</h2><p>Rediscover Minecraft in its smoothest, prettiest form with this ultra-light modpack focused on performance and comfort. With fewer than 50 mods, it keeps the vanilla feel while making the game faster and more practical.</p><p>No complex systems or radical changes: everything is chosen to improve visuals, comfort, and performance with minimal impact.</p><h2>Main mods</h2><div class='modpack-grid'><article class='card'><h3>Optimization & performance</h3><ul class='modpack-list'><li>Sodium boosts performance and overall fluidity.</li><li>Concurrent chunk management (Fabric) makes world loading more responsive.</li></ul></article><article class='card'><h3>Visuals</h3><ul class='modpack-list'><li>Iris enables shaders for improved visuals.</li><li>Continuity adds connected textures for a cleaner look.</li></ul></article><article class='card'><h3>Quality of life</h3><ul class='modpack-list'><li>Carry On makes moving chests, entities, and blocks easier.</li><li>Armored Elytra lets you fly without removing armor.</li><li>Building helpers improve placement accuracy.</li></ul></article></div><h2>Note</h2><p>For versions 1.0.0.0 to X, enable the official resource pack in-game to get the full custom UI (optional).</p>"
+    }
+  },
+  "tags": ["Vanilla+", "Performance", "Détente", "Multijoueur"],
+  "images": {
+    "logo": "image/modpack/cozycraft/cozycraft_logo.png",
+    "banner": "image/modpack/cozycraft/cozycraft_banner.png",
+    "gallery": []
+  },
+  "compatibility": {
+    "edition": "Java",
+    "minecraft": ["1.21.11"],
+    "platforms": ["Fabric"],
+    "environments": ["Client et serveur"]
+  },
+  "details": ["Moins de 50 mods", "Shaders optionnels"],
+  "versions": [
+    {
+      "name": "1.21.11-1.0.0.1",
+      "status": "beta",
+      "minecraft": ["1.21.11"],
+      "loader": "Fabric",
+      "published": "Il y a 2 semaines",
+      "downloads": "3",
+      "files": [{"label": "Télécharger", "url": "#"}]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}

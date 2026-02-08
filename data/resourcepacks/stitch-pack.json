@@ -1,0 +1,53 @@
+﻿{
+  "id": "stitch-pack",
+  "type": "resourcepack",
+  "page": "resourcepack-stitchPack.html",
+  "texts": {
+    "fr": {
+      "title": "Stitch Pack",
+      "shortDescription": "Le pack Stitch est un pack de ressources PVP.",
+      "descriptionHtml": "<h2>Pack PvP Stitch</h2><p>Plongez dans l'univers de Stitch avec ce pack de ressources PvP unique ! Inspiré du célèbre personnage, ce pack apporte une touche fun et colorée à vos combats.</p><ul class=\"modpack-list\"><li>Textures thématiques : Épées stylisées, armures aux reflets bleutés et outils inspirés de Stitch.</li><li>Couleurs vibrantes : Le bleu et le violet dominent pour refléter l'énergie du personnage.</li><li>Optimisé pour le PvP : Textures légères pour une fluidité maximale.</li><li>Effets personnalisés : Particules sur mesure et interface repensée pour une immersion totale.</li></ul><p>Parfait pour les fans de Stitch et les amateurs de PvP !</p>",
+      "byline": "By _Syh"
+    },
+    "en": {
+      "title": "Stitch Pack",
+      "shortDescription": "The Stitch pack is a PvP resource pack.",
+      "descriptionHtml": "<h2>Stitch PvP Pack</h2><p>Enter the world of Stitch with this unique PvP resource pack. Inspired by the iconic character, it adds a fun, colorful vibe to your fights.</p><ul class=\"modpack-list\"><li>Themed textures: stylized swords, blue-tinted armor and tools inspired by Stitch.</li><li>Vibrant colors: blues and purples dominate to reflect the character's energy.</li><li>Optimized for PvP: lightweight textures for maximum performance.</li><li>Custom effects: bespoke particles and a redesigned interface for full immersion.</li></ul><p>Perfect for Stitch fans and PvP lovers.</p>",
+      "byline": "By _Syh"
+    }
+  },
+  "tags": ["UI", "PvP", "BedWars", "x32", "1.8.9"],
+  "images": {
+    "logo": "image/resoursepack/stitchpack/logo.png",
+    "banner": null,
+    "gallery": [
+      "image/resoursepack/stitchpack/img1.png",
+      "image/resoursepack/stitchpack/img2.png",
+      "image/resoursepack/stitchpack/img3.png",
+      "image/resoursepack/stitchpack/img4.png",
+      "image/resoursepack/stitchpack/img5.png"
+    ]
+  },
+  "compatibility": {
+    "minecraft": ["1.8.9"],
+    "platforms": ["Pack de ressources"],
+    "environments": []
+  },
+  "details": [],
+  "versions": [
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.8.9"],
+      "published": "Il y a un an",
+      "downloads": "898",
+      "files": [
+        {"label": "Téléchargement", "url": "#"}
+      ]
+    }
+  ],
+  "links": {
+    "modrinth": "#",
+    "curseforge": "#"
+  }
+}
