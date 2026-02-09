@@ -146,29 +146,35 @@
     // Générer l'URL d'autorisation Discord
     discordLoginBtn.addEventListener('click', () => {
       const scope = "identify";
-      const responseType = "code"; // Changé de 'token' à 'code' pour plus de sécurité avec le Secret
+      const responseType = "token"; // Utilisation du mode 'token' (Implicit Grant) car GitHub Pages est statique
       const authUrl = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=${responseType}&scope=${scope}`;
       window.location.href = authUrl;
     });
 
     // Gérer le retour de Discord
     const handleAuth = async () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const code = urlParams.get('code');
+      // Pour le mode 'token', Discord renvoie les infos dans le fragment (#) et non dans les query params (?)
+      const fragment = new URLSearchParams(window.location.hash.substring(1));
+      const accessToken = fragment.get('access_token');
 
-      if (code) {
-        // Nettoyer l'URL
+      if (accessToken) {
+        // Nettoyer l'URL (enlever le fragment)
         window.history.replaceState({}, document.title, window.location.pathname);
         
         loadingMsg.style.display = 'block';
         discordLoginBtn.style.display = 'none';
 
         try {
-          // Appeler notre fonction Netlify via le redirect configuré dans netlify.toml
-          const response = await fetch(`/api/auth?code=${code}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`);
+          // Récupérer directement les infos utilisateur depuis l'API Discord (possible en mode 'token' depuis le navigateur)
+          const response = await fetch('https://discord.com/api/users/@me', {
+            headers: {
+              'Authorization': `Bearer ${accessToken}`
+            }
+          });
+          
+          if (!response.ok) throw new Error("Erreur lors de la récupération du profil Discord");
+          
           const user = await response.json();
-
-          if (user.error) throw new Error(user.error);
 
           if (WHITELISTED_IDS.includes(user.id)) {
             // Succès : Stocker la session et les infos utilisateur
