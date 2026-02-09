@@ -277,7 +277,7 @@ body {
   align-items: center;
   gap: 12px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: clamp(20px, 2vw, 26px);
   font-weight: 800;
   color: var(--ink);
   letter-spacing: 0.5px;
@@ -289,7 +289,7 @@ body {
   align-items: center;
   gap: 12px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: clamp(18px, 4vw, 22px);
   font-weight: 800;
   color: var(--ink);
   letter-spacing: 0.5px;
@@ -304,8 +304,8 @@ body {
 }
 
 .nav-logo {
-  width: 38px;
-  height: 38px;
+  width: clamp(26px, 2.4vw, 32px);
+  height: clamp(26px, 2.4vw, 32px);
   object-fit: contain;
   filter: drop-shadow(0 0 8px rgba(183, 155, 255, 0.3));
 }
@@ -901,10 +901,11 @@ h2 {
 .theme-preview {
   height: 86px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--stroke);
   padding: 12px;
   display: grid;
   gap: 8px;
+  overflow: hidden;
 }
 
 .theme-preview .preview-line {
