@@ -136,7 +136,7 @@
   <script>
     // Configuration Discord
     const CLIENT_ID = "1470497930921377943"; // Client ID mis à jour
-    const WHITELISTED_IDS = ["864876977227038730", "1064801165201641592"];
+    const WHITELISTED_IDS = ["864876977227038730", "1312170796365385809"];
     const REDIRECT_URI = window.location.origin + window.location.pathname;
 
     const discordLoginBtn = document.getElementById('discordLoginBtn');
@@ -164,8 +164,8 @@
         discordLoginBtn.style.display = 'none';
 
         try {
-          // Appeler notre fonction Netlify pour échanger le code contre les infos utilisateur
-          const response = await fetch(`/.netlify/functions/auth?code=${code}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`);
+          // Appeler notre fonction Netlify via le redirect configuré dans netlify.toml
+          const response = await fetch(`/api/auth?code=${code}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`);
           const user = await response.json();
 
           if (user.error) throw new Error(user.error);
