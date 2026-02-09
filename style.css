@@ -272,7 +272,18 @@ body {
   background: rgba(20, 15, 31, 0.75);
 }
 
-.brand,
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: 0.5px;
+  transition: none !important;
+}
+
 .mobile-brand {
   display: flex;
   align-items: center;
@@ -284,9 +295,17 @@ body {
   letter-spacing: 0.5px;
 }
 
+.brand:hover,
+.mobile-brand:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+  transform: none !important;
+  color: var(--ink) !important;
+}
+
 .nav-logo {
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
   object-fit: contain;
   filter: drop-shadow(0 0 8px rgba(183, 155, 255, 0.3));
 }
