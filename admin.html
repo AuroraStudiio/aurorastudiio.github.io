@@ -6,6 +6,7 @@
   <title>Admin Panel &mdash; AuroraStudio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="logo.png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <style>
     :root {
       --admin-sidebar-width: 260px;
@@ -583,18 +584,27 @@
     }
 
     function exportData() {
-      const data = {
-        manifest: manifestData,
-        servers: serversData
-      };
-      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'aurora-data-export.json';
-      a.click();
-      URL.revokeObjectURL(url);
-      alert("Le fichier aurora-data-export.json a été généré. Vous pouvez l'utiliser pour mettre à jour vos fichiers data/manifest.json et data/servers.json.");
+      const zip = new JSZip();
+      
+      // Add manifest and servers
+      zip.file("data/manifest.json", JSON.stringify(manifestData, null, 2));
+      zip.file("data/servers.json", JSON.stringify(serversData, null, 2));
+      
+      // Add all generated individual JSONs
+      for (const [path, content] of Object.entries(individualJsons)) {
+        zip.file(path, JSON.stringify(content, null, 2));
+      }
+      
+      zip.generateAsync({type:"blob"}).then(function(content) {
+        const url = URL.createObjectURL(content);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'aurora-update-bundle.zip';
+        a.click();
+        URL.revokeObjectURL(url);
+      });
+
+      alert("Un fichier aurora-update-bundle.zip a été généré.\n\nIl contient :\n1. Les fichiers manifest.json et servers.json mis à jour.\n2. Les nouveaux fichiers JSON individuels pour chaque élément ajouté/modifié.\n\nExtrayez ce ZIP à la racine de votre projet pour appliquer les changements.");
     }
 
     function closeModal() {
@@ -693,10 +703,89 @@
       });
     });
 
-    document.getElementById('editForm').addEventListener('submit', (e) => {
+    // Global variables to store all generated JSONs for export
+    let individualJsons = {};
+
+    document.getElementById('editForm').addEventListener('submit', async (e) => {
       e.preventDefault();
-      alert("Note : Dans cette version statique, les modifications ne sont pas enregistrées sur le serveur (pas de backend PHP/Node.js). Les changements sont simulés pour la démonstration de l'interface.");
+      
+      const type = document.getElementById('edit-type').value;
+      const id = document.getElementById('edit-id').value.trim();
+      
+      if (!id) {
+        alert("L'ID est requis.");
+        return;
+      }
+
+      if (type === 'servers') {
+        const serverData = {
+          id: id,
+          name: document.getElementById('edit-name').value,
+          description: document.getElementById('edit-description').value,
+          ip: document.getElementById('edit-ip').value,
+          ipLabel: document.getElementById('edit-ipLabel').value,
+          tags: document.getElementById('edit-tags').value.split(',').map(t => t.trim()).filter(t => t)
+        };
+
+        const index = serversData.findIndex(s => s.id === id);
+        if (index > -1) serversData[index] = serverData;
+        else serversData.push(serverData);
+
+      } else {
+        const listed = document.getElementById('edit-listed').value === 'true';
+        const featured = document.getElementById('edit-featured').value === 'true';
+        
+        // Update manifest
+        let manifestItem = manifestData[type].find(i => i.id === id);
+        if (!manifestItem) {
+          manifestItem = { id: id };
+          manifestData[type].push(manifestItem);
+        }
+        manifestItem.listed = listed;
+        manifestItem.featured = featured;
+
+        // Generate/Update individual JSON
+        const detail = {
+          id: id,
+          type: type.replace(/s$/, ''), // remove 's' from mods, modpacks, resourcepacks
+          page: `${type.replace(/s$/, '')}-${id.replace(/[^a-z0-9]/gi, '').toLowerCase()}.html`,
+          texts: {
+            fr: {
+              title: document.getElementById('edit-title-fr').value,
+              shortDescription: document.getElementById('edit-desc-fr').value,
+              descriptionHtml: `<h2>Description</h2><p>${document.getElementById('edit-desc-fr').value}</p>`
+            },
+            en: { title: id, shortDescription: "", descriptionHtml: "" },
+            pl: { title: id, shortDescription: "", descriptionHtml: "" }
+          },
+          tags: [],
+          images: {
+            logo: document.getElementById('edit-logo').value,
+            banner: document.getElementById('edit-banner').value,
+            gallery: document.getElementById('edit-gallery').value.split(',').map(u => u.trim()).filter(u => u)
+          },
+          compatibility: {
+            edition: "Java",
+            minecraft: ["1.21.x"],
+            platforms: ["Fabric"],
+            environments: ["Client et serveur"]
+          },
+          details: [],
+          versions: []
+        };
+        
+        individualJsons[`data/${type}/${id}.json`] = detail;
+      }
+
+      // Update UI
+      document.getElementById('count-mods').textContent = manifestData.mods.length;
+      document.getElementById('count-modpacks').textContent = manifestData.modpacks.length;
+      document.getElementById('count-resourcepacks').textContent = manifestData.resourcepacks.length;
+      
+      renderList(type);
       closeModal();
+      
+      console.log("Données mises à jour en mémoire. Utilisez 'Exporter' pour récupérer les fichiers.");
     });
 
     loadData();
