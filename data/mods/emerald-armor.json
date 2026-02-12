@@ -43,7 +43,7 @@
       "loader": "Neoforge",
       "published": "05/12/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/PQxhMTMe/emerald_armor-1.0.0-neoforge-1.21.8.jar"}]
     },
     {
       "name": "2.0.0",
@@ -52,7 +52,7 @@
       "loader": "Fabric",
       "published": "27/11/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/bTcQnUoM/emerald_armor-1.0.0-fabric-1.21.8.jar"}]
     },
     {
       "name": "2.0.0",
@@ -61,7 +61,7 @@
       "loader": "Forge",
       "published": "24/08/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/19560u3y/emerald_armor-2.0.0-forge-1.19.2.jar"}]
     },
     {
       "name": "2.0.0",
@@ -70,7 +70,7 @@
       "loader": "Forge",
       "published": "24/08/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/4DqT3tGj/emerald_armor-2.0.0-forge-1.20.1.jar"}]
     },
     {
       "name": "1.0.0",
@@ -79,7 +79,7 @@
       "loader": "Neoforge",
       "published": "26/10/2024",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/NfseAXae/emerald_armor-1.0.0-neoforge-1.21.1.jar"}]
     },
     {
       "name": "1.0.0",
@@ -88,11 +88,11 @@
       "loader": "Forge",
       "published": "22/02/2024",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/hfR6sUO8/versions/oTL6Pz9i/emerald_armor_forge_1.21.1_1.0.0.jar"}]
     }
   ],
   "links": {
-    "modrinth": "#",
-    "curseforge": "#"
+    "modrinth": "https://modrinth.com/mod/emerald-armor",
+    "curseforge": "https://www.curseforge.com/minecraft/mc-mods/emerald-armorr"
   }
 }

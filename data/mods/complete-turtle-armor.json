@@ -42,7 +42,7 @@
       "loader": "Fabric",
       "published": "28/11/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/bqeBZaGd/complete_turtle_armor_-1.0.0-fabric-1.21.8.jar"}]
     },
     {
       "name": "1.0.0",
@@ -51,7 +51,7 @@
       "loader": "Neoforge",
       "published": "28/11/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/MBKucVAM/complete_turtle_armor_-1.0.0-forge-1.20.1.jar"}]
     },
     {
       "name": "1.0.0",
@@ -60,7 +60,7 @@
       "loader": "Forge",
       "published": "17/08/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/vFomHtne/complete_turtle_armor_-1.0.0-neoforge-1.21.1.jar"}]
     },
     {
       "name": "1.0.0",
@@ -69,7 +69,7 @@
       "loader": "Fabric",
       "published": "21/02/2025",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/RUu06RnF/complete_turtle_armor_-1.0.0-beta-neoforge-1.21.1.jar"}]
     },
     {
       "name": "1.0.0",
@@ -78,7 +78,7 @@
       "loader": "Neoforge",
       "published": "25/10/2024",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/lDN4V7vb/turtle_armor_fabric_1.20.1_1.0.0.jar"}]
     },
     {
       "name": "1.0.0",
@@ -87,11 +87,11 @@
       "loader": "Fabric",
       "published": "22/02/2024",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/nZrD8ZJC/versions/qMkRUslW/turtle_armor_forge_1.20.1_1.0.0.jar"}]
     }
   ],
   "links": {
-    "modrinth": "#",
-    "curseforge": "#"
+    "modrinth": "https://modrinth.com/mod/complete-turtle-armor",
+    "curseforge": "https://www.curseforge.com/minecraft/mc-mods/complete-turtle-armor"
   }
 }

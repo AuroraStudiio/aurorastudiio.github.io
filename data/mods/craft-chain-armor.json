@@ -36,11 +36,47 @@
     {
       "name": "1.0.0",
       "status": "release",
-      "minecraft": ["1.21.x", "1.20.x"],
+      "minecraft": ["1.20.1"],
+      "loader": "Datapack",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/8X4rQhjz/versions/Y8GF1aV8/craft_chain_armor_datapack_1.20.1_1.0.0.zip"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.1"],
+      "loader": "Datapack",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/8X4rQhjz/versions/dj8zQ4wf/craft_chain_armor-1.0.0-datapack-1.21.1.zip"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.21.1"],
+      "loader": "NeoForge",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/8X4rQhjz/versions/ojPm4jLb/craft_chain_armor_mod_-1.0.0-neoforge-1.21.1.jar"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.19.x"],
       "loader": "Forge",
       "published": "—",
       "downloads": "—",
-      "files": [{"label": "Télécharger", "url": "#"}]
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/8X4rQhjz/versions/drkP83cg/craft_chaine_armor_1.19.4_1.0.0.jar"}]
+    },
+    {
+      "name": "1.0.0",
+      "status": "release",
+      "minecraft": ["1.20.x"],
+      "loader": "Forge",
+      "published": "—",
+      "downloads": "—",
+      "files": [{"label": "Télécharger", "url": "https://cdn.modrinth.com/data/8X4rQhjz/versions/JpkDGqmZ/craft_chaine_armor_1.20.1_1.0.0.jar"}]
     }
   ],
   "links": {
